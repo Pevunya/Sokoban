@@ -6,7 +6,7 @@
     background: url("../img/wall.jpg");
 }
 
-.b {
+.b, .bg {
     background: url("../img/box.png") 0 0/100% no-repeat;
 }
 
@@ -27,8 +27,23 @@
     transform: rotate(45deg);
 }
 
-.p {
+.p, .P {
     background: url("../img/minion.png") 0 0/100% no-repeat;
+}
+
+.pt {
+    position: relative;
+    background: white;
+}
+
+.pt:after {
+    content: '.';
+    position: absolute;
+    top: -14%;
+    left: 42%;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
 }
 
 #game-field div {
