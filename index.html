@@ -3,11 +3,34 @@
     <head>
         <title>Sokoban</title>
         <link type="text/css" rel="stylesheet" href="css/index.css" />
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
         <div id="game-field"></div>
-        <span id="dummy"></span>
+        <div class="level-field">
+            <div class="display-block">
+                <input id="level-1" class="select-level" type="radio" name="level" value="1" checked />
+                <label for="level-1">Level 1</label>
+            </div>
+            <div class="display-block">
+                <input id="level-2" class="select-level" type="radio" name="level" value="2" />
+                <label for="level-2">Level 2</label>
+            </div>
+            <div class="display-block">
+                <input id="level-3" class="select-level" type="radio" name="level" value="3" />
+                <label for="level-3">Level 3</label>
+            </div>
+            <div class="display-block">
+                <input id="level-4" class="select-level" type="radio" name="level" value="4" />
+                <label for="level-4">Level 4</label>
+            </div>
+            <div class="display-block">
+                <input id="level-5" class="select-level" type="radio" name="level" value="5" />
+                <label for="level-5">Level 5</label>
+            </div>
+        </div>
+        <span id="sound"></span>
     </body>
 </html>

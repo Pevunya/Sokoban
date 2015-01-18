@@ -55,4 +55,16 @@
 #game-field {
     width: 760px;
     height: 440px;
+    background: white;
+    margin: auto;
+}
+
+.level-field {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.display-block {
+    display: block;
 }
